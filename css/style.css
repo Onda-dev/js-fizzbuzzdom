@@ -4,8 +4,40 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 40px 0;
+}
+
 .container {
     max-width: 1000px;
     margin: auto;
     background-color: pink;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(157, 130, 238);
+    margin: 10px;
+}
+
+.green {
+    background-color: rgb(114, 200, 109);
+}
+
+.yellow {
+    background-color: rgb(252, 220, 59);
+}
+
+.red {
+    background-color: rgb(243, 95, 130);
 }
