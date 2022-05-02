@@ -6,11 +6,11 @@ for( let i = 1; i <= 100; i++ ) {
         element.innerText = "FizzBuzz";
         console.log("FizzBuzz");
     }
-    if( i % 3 === 0) {
+    else if( i % 3 === 0) {
         element.innerText = "Fizz";
         console.log("Fizz");
     }
-    if( i % 5 === 0) {
+    else if( i % 5 === 0) {
         element.innerText = "Buzz";
         console.log("Buzz");
     }
